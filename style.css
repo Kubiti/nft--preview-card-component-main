@@ -1,0 +1,138 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    background-color: hsl(217, 54%, 11%);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+main * {
+    border-radius: 10px;
+}
+
+.outer-container {
+    /* background-color: hsl(255, 100%, 100%, 0.5); */
+    padding: 15px;
+    width: 350px;
+    height: fit-content;
+    margin-top: 20px;
+}
+
+#nft-card {
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.4);
+    background-color: hsl(216, 50%, 16%);
+    padding: 20px auto 10px auto;
+}
+
+#card-img {
+    position: relative;
+    padding-top: 230px;
+}
+
+/* check margin */
+#card-img-after, #card-img-before {
+    position: absolute;
+    top: 10px;
+}
+
+#card-img-before {
+    width: 250px;
+}
+
+#card-img-before:hover {
+    opacity: 0.3;
+}
+
+#card-img-after {
+    background-color: hsla(178, 100%, 50%, 0.9);
+    padding: 100px;
+}
+article {
+    width: fit-content;
+}
+
+.description {
+    padding: 35px;
+}
+
+.description-header {
+    font-weight: 800;
+    font-size: 24px;
+    color: white;
+}
+
+.description-content {
+    color: lightgray;
+    font-size: 18px;
+    width: 100%;
+}
+
+#card-info  {
+    display: flex;
+}
+
+
+#card-info figure{
+    margin: 5px;
+}
+#card-info span{
+    width: 40%;
+    margin-left: 10px;
+}
+#eth-amount{
+    color: hsl(178, 100%, 50%);
+    position:relative;
+    top:5px;
+}
+#time-left{
+    color: hsl(215, 51%, 70%);
+    position:relative;
+    top:5px;
+}
+
+.divider{
+    border: 0.1px solid rgba(160, 160, 160, 0.2);
+    margin: 10px auto;
+}
+#card-holder img{
+    /* display: none; */
+    width: 50px;
+    margin-right: 20px;
+}
+#card-holder span{
+    position: relative;
+    bottom: 20px;
+} 
+#action{
+    color: rgba(158, 152, 152, 0.637);
+}
+#object{
+    color: white;
+    margin-left: 5px;
+}
+
+.description-header:hover, #object:hover, .eth-img:hover {
+    cursor: pointer;
+    color: hsl(178, 100%, 50%);
+}
+
+.eth-img:hover {
+    background: hsl(178, 100%, 50%);
+}
+
+.attribution {
+    color: white;
+    background-color: hsl(217, 54%, 11%);
+    padding-bottom: 2em;
+}
+
+/* .attribution  */
+a {
+    color: lightgray !important;
+    text-decoration: none;
+}
