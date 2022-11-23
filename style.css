@@ -12,21 +12,22 @@ main {
 }
 
 main * {
-    border-radius: 10px;
+    border-radius: 20px;
 }
 
 .outer-container {
     /* background-color: hsl(255, 100%, 100%, 0.5); */
     padding: 15px;
-    width: 350px;
+    width: 340px;
     height: fit-content;
     margin-top: 20px;
 }
 
 #nft-card {
-    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.4);
+    box-shadow: 0 0 15px 20px rgba(0, 0, 0, 0.4);
     background-color: hsl(216, 50%, 16%);
     padding: 20px auto 10px auto;
+    padding-top: 7px;
 }
 
 #card-img {
@@ -34,7 +35,6 @@ main * {
     padding-top: 230px;
 }
 
-/* check margin */
 #card-img-after, #card-img-before {
     position: absolute;
     top: 10px;
@@ -57,7 +57,7 @@ article {
 }
 
 .description {
-    padding: 35px;
+    padding: 35px 35px 25px;
 }
 
 .description-header {
@@ -101,12 +101,12 @@ article {
 }
 #card-holder img{
     /* display: none; */
-    width: 50px;
+    width: 40px;
     margin-right: 20px;
 }
 #card-holder span{
     position: relative;
-    bottom: 20px;
+    bottom: 15px;
 } 
 #action{
     color: rgba(158, 152, 152, 0.637);
